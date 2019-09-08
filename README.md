@@ -84,3 +84,14 @@ Things you may want to cover:
 - has_many :messages, through :users
 - belongs_to :group
 - has_many :users
+
+## users_membersテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|user_id|integer|null: false, foreign_key: true|
+|members_id|integer|null: false, foreign_key: true|
+
+### Association
+- belongs_to :member
+- belongs_to :user
