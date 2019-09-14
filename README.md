@@ -32,6 +32,7 @@ Things you may want to cover:
 
 ### Association
 - has_many :user
+- has_many :message
 
 
 ## usersテーブル
@@ -69,4 +70,5 @@ Things you may want to cover:
 
 ### Association
 - belongs_to :user
+- belongs_to :group
 
