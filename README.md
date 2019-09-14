@@ -31,7 +31,7 @@ Things you may want to cover:
 |members_id|integer|null: false, foreign_key: true|
 
 ### Association
-- has_many :user
+- has_many :user, through: groups_users
 - has_many :message
 
 
@@ -43,7 +43,7 @@ Things you may want to cover:
 |mail|string|null: false|
 
 ### Association
-- has_many :groups
+- has_many :groups, trough: groups_users
 - has_many :messages
 
 
